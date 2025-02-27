@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ment<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -194,7 +194,7 @@
 
                 const downloadLink = document.createElement('a');
                 downloadLink.innerHTML = `<i class="fas fa-download"></i>`;
-                downloadLink.href = `https://github.com/Assessments2727/The-Real-Assessments/archive/refs/heads/main.zip`;
+                downloadLink.href = `https://github.com/Assessments2727/Assessment-Collection/archive/refs/heads/main.zip`;
                 downloadLink.download = `${folder.name}.zip`;
                 downloadLink.title = "Download folder as zip";
 
@@ -228,7 +228,7 @@
 
     (async function() {
         const repoOwner = 'Assessment2727';
-        const repoName = 'The-Real-Assessments';
+        const repoName = 'Assessment-Collection';
         const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents`;
         await fetchFolderContents(apiUrl, document.getElementById('fileList'));
     })();
